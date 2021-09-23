@@ -3,17 +3,17 @@ package Comcast.contact_Test;
 import org.testng.annotations.Test;
 
 public class contact_Test {
-	@Test
-	public void createContactTest() {
-		System.out.println("execute createContactTest");
+	@Test(groups= "SmokeTest")
+	public void contact1_Test() {
+		System.out.println("execute contact_Test");
 	}
-	@Test
-	public void createContactwithOrgTest() {
+	@Test(groups= "RegresssionTest")
+	public void creContactwithOrgTest() {
 		System.out.println("execute createContactWithOrg");
 	}
 
-	@Test
-	public void deleteContactTest() {
+	@Test(groups= "RegressionTest")
+	public void delContactTest() {
 		System.out.println("execute deleteContactTest");
 	}
 
